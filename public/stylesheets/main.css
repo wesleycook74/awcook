@@ -1,37 +1,48 @@
 /* Text Color */
 .green {
-  color: #8fd900
+  color: #8fd900 !important
 }
 
 .light_green { 
-  color: #c4ff50
+  color: #c4ff50 !important
 }
 
 .dark_green {
-  color: #5aa700
+
+  color: #5aa700 !important
 }
 
 .brown {
-  color: #724523
+  color: #724523 !important
 }
 
 .light_brown {
-  color: #a3704c
+  color: #a3704c !important
 }
 
 .dark_brown {
-  color: #441d00
+  color: #441d00 !important
 }
 
 .blue {
-  color: #c6ffff
+  color: #c6ffff !important
 }
 
 .light_blue {
-  color: #faffff
+  color: #faffff !important
 }
 
 .dark_blue {
-  color: #94cccc
+  color: #94cccc !important
+}
+
+/* https://stackoverflow.com/questions/18474564/bootstrap-3-navbar-with-logo */
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  max-height: 75px;
+  padding: 15px;
+  width: auto;
 }
 
