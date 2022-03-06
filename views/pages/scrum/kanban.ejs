@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Alexandra S Cook</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/carousel.css" />
+
+
+</head>
+
+<body>
+
+    <% include ../../partials/nav.ejs %>
+
+    <main role="main">
+        <section class="section about-section gray-bg" id="about">
+            <div class="container">
+                <div class="row flex-row" style="padding-top: 5rem;">
+                    <div class="col-lg-2">
+                        <% include ../../partials/scrum_sidebar.ejs %>
+                    </div>
+                    <div class="col-lg-10">
+						<h1>Kanban and ScrumBan</h1>
+						<div id="main-content" class="wiki-content group">
+							<p><span>A strategy for optimizing the flow of stakeholder </span><span>value</span><span> that uses a visual, Work-In-Progress (WIP) limited pull system. The flow optimization practices of Kanban provide Scrum Teams with additional opportunities to inspect the right thing, at the right time, and then based on that inspection, adapt as needed. Kanban's hyperfocus on transparency, visualization, and flow maximizes feedback, empiricism, and ultimately the delivery of value.</span></p><ul><li><span>Optimizes flow through improvement of overall efficiency, effectiveness and predictability of the process</span></li><li><span>Combined with scrum, kanban can help a team design a process to optimize the delivery of customer </span><span>value</span></li></ul><p><br/></p><p><span>Using Kanban is not a replacement for anything in the Scrum Guide but an enhancement to it</span></p><h3 id="Kanban/ScrumBan-ScrumBan"><span>ScrumBan</span></h3><p><span>The combination of Scrum and Kanban. We can use ScrumBan as a way to introduce Lean/Kanban flow into a Scrum context – while keeping the core Scrum process intact. </span></p><h3 id="Kanban/ScrumBan-Little’sLaw"><span>Little’s Law</span></h3><p><span>Average cycle time is a guideline which establishes the following:</span></p><p><span>average cycle time = average work in progress</span><span> average throughput </span></p><p><span>This equation reveals that the more work you have at any given time makes it take longer overall to complete those items</span></p><h3 id="Kanban/ScrumBan-FourPracticesofKanban"><span>Four Practices of Kanban</span></h3><h4 id="Kanban/ScrumBan-WorkflowVisualization"><span>Workflow Visualization</span></h4><p><span>The kanban board should prompt good conversations are the right time and proactively suggest opportunities for improvement</span></p><ul><li><em><span>Defined points</span></em><span> at which the Scrum Team considers work to have started and to have</span></li></ul><p><span>finished.</span></p><ul><li><span>A </span><em><span>definition of the work items</span></em><span> - the individual units of value (stakeholder value, knowledge value, process improvement value) that are flowing through the Scrum Team's system(most likely Product Backlog items (PBIs)).</span></li><li><span> A </span><em><span>definition of the workflow</span></em><span> states that the work items flow through from start to finish(of which there must be at least one active state).</span></li><li><em><span>Explicit policies</span></em><span> about how work flows through each state (which may include items from a Scrum Team's Definition of Done and pull policies between stages).</span></li><li><span>Policies for</span><em><span> limiting Work in Progress</span></em><span> (WIP).</span></li></ul><h4 id="Kanban/ScrumBan-LimitingWIP"><span>Limiting WIP</span></h4><p><span>Applies Lean principles to improve flow, </span><strong>collaboration</strong><span> and learning. Pushes </span><strong>collaboration</strong><span> between team members. “The more things you work on, the longer it will take to finish each of those things.”</span></p><h4 id="Kanban/ScrumBan-Activemanagementofworkitemsin-progress"><span>Active management of work items in-progress</span></h4><ul><li><span>Work pulls in at the same rate it leaves</span></li><li><span>Work items do not age unnecessarily</span></li><li><span>Response times for block or queued work</span></li></ul><h5 id="Kanban/ScrumBan-ServiceLevelExpectations"><span>Service Level Expectations</span></h5><p><span>Forecast of how long it should take a given item to flow from start to finish within the Scrum Team’s workflow based on the team’s historical cycle time</span></p><ul><li><span>Range of elapsed days</span></li><li><span>Probability associated with that period</span></li></ul><h4 id="Kanban/ScrumBan-InspectingandadaptingtheteamsDefinitionofWorkflow"><span>Inspecting and adapting the teams Definition of Workflow</span></h4><p><span>A concise description of how we move things through the workflow </span></p><p><em><span>Visualization policies </span></em><span>- for example, Workflow states - either changing the actual Workflow or bringing more transparency to an area in which the team wants to inspect and adapt. </span></p><p><em><span>How-we-work policies </span></em><span>- these can directly address an impediment. For example, adjusting WIP limits and SLEs or changing the batch size (how often items are pulled between states) can have a dramatic impact. </span></p><p><br/></p><h4 id="Kanban/ScrumBan-EventsinKanban"><span>Events in Kanban</span></h4><ul><li><em><span>Sprint Planning </span></em><span>- uses flow metrics as an aid for developing the Sprint Backlog</span></li><li><em><span>Daily Scrum</span></em><span> - Focus specifically on how to improve flow</span></li><ul><li><span>What work items are blocked and what can be done to get them unblocked?</span></li><li><span>What work is flowing slower than expected? </span></li><li><span>What is the Work Item Age of each item in progress? </span></li><li><span>What work items have violated or are about to violate their SLE and what can the Scrum Team do to get that work completed?</span></li><li><span>Are there any factors not represented on the board that may impact our ability to complete work today?</span></li><li><span>Have we learned anything new that might change what the Scrum Team has planned to work on next?</span></li></ul><li><em><span>Sprint Review </span></em><span>- Include inspection of kanban flow metrics as part of the review</span></li></ul><p><em><span>Sprint Retrospective</span></em><span> - Use metrics and analytics to help determine possible improvements to the process</span></p>
+							</div>
+		
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
