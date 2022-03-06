@@ -15,11 +15,8 @@ express()
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
-  .get('/wesley', (req, res) => res.render('pages/wesley'))
-  .get('/alex', (req, res) => res.render('pages/alex'))
-  .get('/scrum', (req, res) => res.render('pages/scrum'))
-  .get('/scrum/artifacts', (req, res) => res.render('pages/scrum/artifacts'))
-  .get('/scrum/events', (req, res) => res.render('pages/scrum/events'))
-  .get('/scrum/scrum_team', (req, res) => res.render('pages/scrum/scrum_team'))
-  .get('/scrum/metrics', (req, res) => res.render('pages/scrum/metrics'))
+  .get('/*', (req, res) => {
+    res.render('pages' + req.originalUrl);
+  })
+  
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
