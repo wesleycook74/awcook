@@ -1,3 +1,4 @@
+
 /* Text Color */
 .green {
   color: #8fd900 !important
@@ -97,3 +98,20 @@ g {
   width: auto;
 }
 
+a {
+  color: #008b8b;
+}
+
+.scrum-sidebar {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+.scrum-sidebar li .sub {
+  padding-left: 1rem;
+}
+
+.about-list .media label {
+   padding-right: 1em;
+}
