@@ -31,13 +31,96 @@
                         <% include ../../../partials/scrum_sidebar.ejs %>
                     </div>
                     <div class="col-lg-10">
-						<h1>Building Quality</h1>
+                        <h1>Building Quality</h1>
                         <div id="main-content" class="wiki-content group">
-                            <p><span>Quality encompasses the UX of the product, it’s flexibility, maintainability, efficiency and responsiveness</span></p><p><span>Early and continuous feedback help drive quality and </span><strong>adaptation</strong></p><p><strong>Focus </strong><span>on quality should start on day 1</span></p><h3 id="BuildingQuality-Test-DrivenDevelopment"><span>Test-Driven Development</span></h3><p><span>A technique where Developers develop a test case for each desired behavior of a unit of work and then extend the implementation to reflect this behavior. It </span><em><span>can</span></em><span> help to write cleaner code by emphasizing refactoring and it will decrease the risk of bugs. But the practice itself </span><em><span>will not guarantee these outcomes</span></em><span>, it still has to be applied correctly and needs skilled developers to achieve good results.</span></p><h4 id="BuildingQuality-Steps"><span>Steps</span></h4><ul><li><span>Writing a single unit test describing an aspect of the function</span></li><li><span>Running the test which should fail</span></li><li><span>Writing just enough code to make the test pass</span></li><li><span>Refactoring the code until it meets the code standards in the DoD</span></li></ul><h4 id="BuildingQuality-Benefits"><span>Benefits</span></h4><ul><li><span>It promotes good design and separation of concerns.</span></li><li><span>It speeds the overall development process.</span></li><li><span>It improves quality and reduces bugs.</span></li><li><span>It causes you to construct a test harness that can be automated.</span></li></ul><p><br/></p><h3 id="BuildingQuality-Behavior-DrivenDevelopment"><span>Behavior-Driven Development</span></h3><ul><li><span>Builds on TDD</span></li><li><span>Acceptance Tests </span><strong>focus</strong><span> on the intended behavior rather then just function </span></li><li><span>Combination of native language and domain driven design</span></li></ul><h3 id="BuildingQuality-AcceptanceTestDrivenDevelopment"><span>Acceptance Test Driven Development</span></h3><ul><li><span>A </span><strong>collaborative</strong><span> practice in which users and the Development Team define acceptance criteria prior to building any functionality. </span></li></ul><h3 id="BuildingQuality-Automation"><span>Automation</span></h3><p><span>Automation is a key to speeding time to &quot;Done&quot; there are 5 steps to automation</span></p><ol><li><span>Version control </span></li><li><span>Automated build </span></li><li><span>Automated test </span></li><li><span>Automated packaging </span></li><li><span>Automated deployment</span></li></ol><p><br/></p><p><span>Technical excellence is an essential capability for Development Teams to grow, and automation practices are a major component of that effort.</span></p><h3 id="BuildingQuality-DevOps"><span>DevOps</span></h3><p><span>DevOps breaks down barriers between operations and development in pursuit of increased agility.</span></p><h3 id="BuildingQuality-CodeQualityMetrics"><span>Code Quality Metrics</span></h3><ul><li><span>Code Coverage ***an indicator by not necessarily a metric</span></li><li><span>Complexity metrics</span></li><li><span>Build Stability Metrics</span></li><li><span>Defect Metrics/Bug Backlog</span></li><li><span>Depth of inheritance</span></li><li><span>Class coupling</span></li></ul><h3 id="BuildingQuality-TechnicalDebt"><span>Technical Debt </span></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/Gp97xUw9HfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p><br/></p><p><span>The eventual consequences of poor technical choices.</span></p><ul><li><span>Deferred Work made from development team choosing speed over quality</span></li><li><span>Must be </span><strong>transparent </strong><span>as well as the impacts of creating changes over time</span></li><li><span>DoD can be updated to include avoiding technical Debt</span></li><li><span>Treat Technical debt like credit card debt</span></li><li><span>Create a visual for paying down the debt as a motivator</span></li></ul><h3 id="BuildingQuality-Bugs"><span>Bugs</span></h3><p><span><br/></span></p><p><span>If found during a build or while coding, fix the bug if it is critical or easily fixed. Otherwise, put the new bug into the Product Backlog to be prioritized and fixed in an upcoming Sprint.</span></p>
+                            <p><span>Quality encompasses the UX of the product, it’s flexibility, maintainability,
+                                    efficiency and responsiveness</span></p>
+                            <p><span>Early and continuous feedback help drive quality and
+                                </span><strong>adaptation</strong></p>
+                            <p><strong>Focus </strong><span>on quality should start on day 1</span></p>
+                            <h3 id="tdd"><span>Test-Driven Development</span></h3>
+                            <p><span>A technique where Developers develop a test case for each desired behavior of a
+                                    unit of work and then extend the implementation to reflect this behavior. It
+                                </span><em><span>can</span></em><span> help to write cleaner code by emphasizing
+                                    refactoring and it will decrease the risk of bugs. But the practice itself
+                                </span><em><span>will not guarantee these outcomes</span></em><span>, it still has to be
+                                    applied correctly and needs skilled developers to achieve good results.</span></p>
+                            <h4 id="BuildingQuality-Steps"><span>Steps</span></h4>
+                            <ul>
+                                <li><span>Writing a single unit test describing an aspect of the function</span></li>
+                                <li><span>Running the test which should fail</span></li>
+                                <li><span>Writing just enough code to make the test pass</span></li>
+                                <li><span>Refactoring the code until it meets the code standards in the DoD</span></li>
+                            </ul>
+                            <h4 id="benefits"><span>Benefits</span></h4>
+                            <ul>
+                                <li><span>It promotes good design and separation of concerns.</span></li>
+                                <li><span>It speeds the overall development process.</span></li>
+                                <li><span>It improves quality and reduces bugs.</span></li>
+                                <li><span>It causes you to construct a test harness that can be automated.</span></li>
+                            </ul>
+                            <h3 id="bdd"><span>Behavior-Driven Development</span></h3>
+                            <ul>
+                                <li><span>Builds on TDD</span></li>
+                                <li><span>Acceptance Tests </span><strong>focus</strong><span> on the intended behavior
+                                        rather then just function </span></li>
+                                <li><span>Combination of native language and domain driven design</span></li>
+                            </ul>
+                            <h3 id="atdd""><span>Acceptance Test Driven
+                                    Development</span></h3>
+                            <ul>
+                                <li><span>A </span><strong>collaborative</strong><span> practice in which users and the
+                                        Development Team define acceptance criteria prior to building any
+                                        functionality. </span></li>
+                            </ul>
+                            <h3 id="BuildingQuality-Automation"><span>Automation</span></h3>
+                            <p><span>Automation is a key to speeding time to &quot;Done&quot; there are 5 steps to
+                                    automation</span></p>
+                            <ol>
+                                <li><span>Version control </span></li>
+                                <li><span>Automated build </span></li>
+                                <li><span>Automated test </span></li>
+                                <li><span>Automated packaging </span></li>
+                                <li><span>Automated deployment</span></li>
+                            </ol>
+                            <p><span>Technical excellence is an essential capability for Development Teams to grow, and
+                                    automation practices are a major component of that effort.</span></p>
+                            <h3 id="BuildingQuality-DevOps"><span>DevOps</span></h3>
+                            <p><span>DevOps breaks down barriers between operations and development in pursuit of
+                                    increased agility.</span></p>
+                            <h3 id="BuildingQuality-CodeQualityMetrics"><span>Code Quality Metrics</span></h3>
+                            <ul>
+                                <li><span>Code Coverage ***an indicator by not necessarily a metric</span></li>
+                                <li><span>Complexity metrics</span></li>
+                                <li><span>Build Stability Metrics</span></li>
+                                <li><span>Defect Metrics/Bug Backlog</span></li>
+                                <li><span>Depth of inheritance</span></li>
+                                <li><span>Class coupling</span></li>
+                            </ul>
+                            <h3 id="BuildingQuality-TechnicalDebt"><span>Technical Debt </span></h3><iframe width="560"
+                                height="315" src="https://www.youtube.com/embed/Gp97xUw9HfU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <p><span>The eventual consequences of poor technical choices.</span></p>
+                            <ul>
+                                <li><span>Deferred Work made from development team choosing speed over quality</span>
+                                </li>
+                                <li><span>Must be </span><strong>transparent </strong><span>as well as the impacts of
+                                        creating changes over time</span></li>
+                                <li><span>DoD can be updated to include avoiding technical Debt</span></li>
+                                <li><span>Treat Technical debt like credit card debt</span></li>
+                                <li><span>Create a visual for paying down the debt as a motivator</span></li>
+                            </ul>
+                            <h3 id="BuildingQuality-Bugs"><span>Bugs</span></h3>
+                            <p><span><br /></span></p>
+                            <p><span>If found during a build or while coding, fix the bug if it is critical or easily
+                                    fixed. Otherwise, put the new bug into the Product Backlog to be prioritized and
+                                    fixed in an upcoming Sprint.</span></p>
                         </div>
                     </div>
                 </div>
-            </div>]
+            </div>
         </section>
     </main>
 </body>
