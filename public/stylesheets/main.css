@@ -1,83 +1,33 @@
 
+
 /* Text Color */
-.green {
-  color: #8fd900 !important
+.grey {
+  color: #645e9dff !important
 }
 
-.light_green { 
-  color: #c4ff50 !important
+.yellow {
+  color: #FFBD33 !important
 }
 
-.dark_green {
-
-  color: #5aa700 !important
-}
-
-.brown {
-  color: #724523 !important
-}
-
-.light_brown {
-  color: #a3704c !important
-}
-
-.dark_brown {
-  color: #441d00 !important
+.purple {
+  color: #2d0320ff !important
 }
 
 .blue {
-  color: #c6ffff !important
+  color:  #013535ff !important
 }
 
-.light_blue {
-  color: #faffff !important
+.teal {
+  color:  #6c969dff !important
 }
 
-.dark_blue {
-  color: #94cccc !important
-}
 
 /* https://stackoverflow.com/questions/18474564/bootstrap-3-navbar-with-logo */
 .navbar-brand {
   padding: 0px;
 }
-.navbar-brand>im/* Text Color */
-.green {
-  color: #8fd900 !important
-}
 
-.light_green { 
-  color: #c4ff50 !important
-}
 
-.dark_green {
-
-  color: #5aa700 !important
-}
-
-.brown {
-  color: #724523 !important
-}
-
-.light_brown {
-  color: #a3704c !important
-}
-
-.dark_brown {
-  color: #441d00 !important
-}
-
-.blue {
-  color: #c6ffff !important
-}
-
-.light_blue {
-  color: #faffff !important
-}
-
-.dark_blue {
-  color: #94cccc !important
-}
 
 /* https://stackoverflow.com/questions/18474564/bootstrap-3-navbar-with-logo */
 .navbar-brand {
