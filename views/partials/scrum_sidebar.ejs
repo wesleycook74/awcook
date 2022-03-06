@@ -10,7 +10,7 @@
 			</li>
             <li>
                 <a href="#pageFoundations" data-toggle="collapse" aria-expanded="<%= sub == null%>">Foundations <i class="fa-solid fa-angle-down"></i></a>
-                <ul class="collapse list-unstyled <%= sub != "notes" || sub != "tools" ? "show" : ""%>" id="pageFoundations">
+                <ul class="collapse list-unstyled <%= sub && (sub != "notes" || sub != "tools") ? "show" : ""%>" id="pageFoundations">
                     <li class="sub">
                         <a href="/scrum/artifacts">Artifacts</a>
                     </li>
