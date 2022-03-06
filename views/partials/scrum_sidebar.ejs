@@ -9,8 +9,8 @@
                 <a href="/scrum">Introduction</a>
 			</li>
             <li>
-                <a href="#pageFoundations" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
-                <ul class="collapse list-unstyled" id="pageFoundations">
+                <a href="#pageFoundations" data-toggle="collapse" aria-expanded="<%= sub == null%>">Foundations <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="collapse list-unstyled <%= sub != "notes" || sub != "tools" ? "show" : ""%>" id="pageFoundations">
                     <li class="sub">
                         <a href="/scrum/artifacts">Artifacts</a>
                     </li>
@@ -26,8 +26,8 @@
                 </ul>
             </li>
             <li>
-                <a href="#pageNotes" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Notes</a>
-                <ul class="collapse list-unstyled" id="pageNotes">
+                <a href="#pageNotes" data-toggle="collapse" aria-expanded="<%= sub == "notes"%>">Notes <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="collapse list-unstyled <%= sub == "notes" ? "show" : ""%>" id="pageNotes">
                     <li class="sub">
                         <a href="/scrum/notes/agile">Agile Mindset</a>
                     </li>
@@ -54,8 +54,8 @@
             <li>
                 <a href="#">Kanban/Scrumban</a>
 			</li>
-			<a href="#pageTools" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Tools and Tips</a>
-			<ul class="collapse list-unstyled" id="pageTools">
+			<a href="#pageTools" data-toggle="collapse" aria-expanded="<%= sub == "tools"%>">Tools and Tips <i class="fa-solid fa-angle-down"></i></a>
+			<ul class="collapse list-unstyled <%= sub == "tools" ? "show" : ""%>" id="pageTools">
 				<li class="sub">
 					<a href="/scrum/tools/building_quality">Building Quality</a>
 				</li>

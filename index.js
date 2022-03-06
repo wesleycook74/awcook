@@ -16,7 +16,11 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .get('/*', (req, res) => {
-    res.render('pages' + req.originalUrl);
+    sections = req.originalUrl.split("/")
+    main = sections[1]
+    sub = sections[2]
+    console.log(sub)
+    res.render(('pages' + req.originalUrl), { originalUrl : req.originalUrl, main: main, sub: sub });
   })
   
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
