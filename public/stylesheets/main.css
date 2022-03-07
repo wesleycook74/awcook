@@ -51,8 +51,10 @@ g {
 a {
   color: #008b8b;
 }
-#about > .container {
-  margin: 0 2em 0 2em;
+@media (min-width: 1200px) {
+  #about > .container {
+    margin: 0 2em 0 2em;
+  }
 }
 .scrum-sidebar {
   display: flex;
