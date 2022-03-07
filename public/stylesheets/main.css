@@ -21,6 +21,26 @@
   color:  #6c969dff !important
 }
 
+.grey_background {
+  background-color: #645e9dff !important
+}
+
+.yellow_background {
+  background-color: #FFBD33 !important
+}
+
+.purple_background {
+  background-color: #2d0320ff !important
+}
+
+.blue_background {
+  background-color:  #013535ff !important
+}
+
+.teal_background {
+  background-color:  #6c969dff !important
+}
+
 
 /* https://stackoverflow.com/questions/18474564/bootstrap-3-navbar-with-logo */
 .navbar-brand {
@@ -68,4 +88,16 @@ a {
 
 .about-list .media label {
    padding-right: 1em;
+}
+
+th {
+  background-color:  #6c969dff !important
+}
+td {
+  background-color:  rgb(162, 227, 238) !important
+}
+
+.kvm_name {
+  font-weight: bold;
+  width: 15em;
 }
