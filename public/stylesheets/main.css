@@ -10,7 +10,7 @@
 }
 
 .purple {
-  color: #2d0320ff !important
+  color: rgb(29, 2, 20) !important
 }
 
 .blue {
@@ -22,7 +22,7 @@
 }
 
 .grey_background {
-  background-color: #645e9dff !important
+  background-color: #abaaad !important
 }
 
 .yellow_background {
@@ -58,7 +58,7 @@
   padding: 15px;
   width: auto;
 }
-.navbar, body {
+body {
   background-color: #faffff !important;
 }
 
