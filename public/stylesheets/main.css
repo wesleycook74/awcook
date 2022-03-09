@@ -94,7 +94,8 @@ th {
   background-color:  #6c969dff !important
 }
 td {
-  background-color:  rgb(162, 227, 238) !important
+  background-color:  white;
+  border-bottom: 1px solid #645e9dff;
 }
 
 .kvm_name {

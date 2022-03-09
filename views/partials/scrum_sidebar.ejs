@@ -56,7 +56,8 @@
             </li>
             <li>
                 <a href="#">Kanban/Scrumban</a>
-			</li>
+            </li>
+            <li>
 			<a href="#pageTools" data-toggle="collapse" aria-expanded="<%= sub == "tools"%>">Tools and Tips <i class="fa-solid fa-angle-down"></i></a>
 			<ul class="collapse list-unstyled <%= sub == "tools" ? "show" : ""%>" id="pageTools">
 				<li class="sub">
@@ -77,8 +78,16 @@
                 <li class="sub">
 					<a href="/scrum/tools/impediments">Impediments</a>
 				</li>
+            </ul>
+        </li>
+        <li>
+            <a href="#pageProduct" data-toggle="collapse" aria-expanded="<%= sub == "product"%>">Product<i class="fa-solid fa-angle-down"></i></a>
+			<ul class="collapse list-unstyled <%= sub == "product" ? "show" : ""%>" id="pageProduct">
+				<li class="sub">
+					<a href="/scrum/product/intro">Introduction</a>
+				</li>
 			</ul>
-        </ul>
+        </li>
     </nav>
 
 </div>
