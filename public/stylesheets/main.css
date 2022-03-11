@@ -98,6 +98,10 @@ td {
   border-bottom: 1px solid #645e9dff;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .kvm_name {
   font-weight: bold;
   width: 15em;
