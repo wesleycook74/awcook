@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../../../favicon.ico">
+
+	<title>Alexandra S Cook</title>
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+	<link rel="stylesheet" type="text/css" href="/stylesheets/carousel.css" />
+
+
+</head>
+
+<body>
+
+	<% include ../../partials/nav.ejs %>
+
+	<main role="main">
+		<section class="section about-section gray-bg" id="about">
+			<div class="container">
+				<div class="row flex-row" style="padding-top: 5rem;">
+					<div class="col-lg-2">
+						<% include ../../partials/scrum_sidebar.ejs %>
+					</div>
+					<div class="col-lg-10">
+						<h1>Scaling Scrum with Nexus</h1>
+						<p>Scrum.org provides a guide on how to use Scrum with multiple teams they call <a
+								href="https://www.scrum.org/resources/scaling-scrum">"Nexus"</a>. These are my notes
+							from that guide.</p>
+
+						<p class="lead">"A framework for developing and sustaining scaled product delivery"</p>
+						<p>A "Nexus" is a group of 3-9 Scrum Teams that work together to deliver a single Product</p>
+						<p>Even with multiple teams, there should only be <strong>One Product Owner</strong> and a
+							<strong>Single Product Backlog</strong></p>
+						<div class="nexus_theory">
+							<h2>Nexus Theory</h2>
+							<p>The goal is to scale the value the a group of Scrum Teams can deliver by reducing
+								complexity during collaboration. Teams using Nexus should see:</p>
+							<ul>
+								<li>Reductions in cross-team dependencies</li>
+								<li>Preservation of team self-management and transparency</li>
+								<li>Ensurance of Accountability</li>
+								<li>Transparency of dependencies</li>
+								<ul>
+									<li>Product Structure Dependencies</li>
+									<li>Communication Structure Dependencies</li>
+								</ul>
+							</ul>
+							<p class="lead">Scaling the value delivered does not always include adding more people</p>
+						</div>
+						<div class="nexus_framework">
+							<h2>Nexus Framework</h2>
+							<p class="lead">"Nexus builds upon Scrum by enhancing the foundational elements of Scrum"
+							</p>
+							<h3>Nexus Integration Team</h3>
+							<p>Responsible for "coaching and guiding the Scrum Teams to acquire, implement and learn
+								practices and tools that can improve their ability to produce a valuable, useful
+								increment</p>
+							<ul>
+								<li>Product Owner - Single PO for the Product</li>
+								<li>Scrum Master - Single SM that my be on one or more of the Scrum Teams</li>
+								<li>Nexus Integration Team Members - Scrum Team members that help the teams adopt tool
+								</li>
+							</ul>
+							<p>An integrated Increment should be produced each Sprint</p>
+							<h3>Nexus Events</h3>
+							<h4>Sprint</h4>
+							<p>Same as in <a href="/scrum/events#sprint">Scrum</a>, teams produce a single integrated increment</p>
+							<h4>Cross-Team Refinement</h4>
+							<p>"reduces or eliminates cross-team dependencies", does not replace Scrum Team refinements</p>
+							<h4>Nexus Sprint Planning</h4>
+							<p>An event where appropriate representatives from each Scrum Team and the PO meet to coordinate the activities of all Scrum Teams and the overall plans fro the Sprint</p>
+							<p>The result of this event should be: </p>
+							<ul>
+								<li>A Nexus Sprint Goal</li>
+								<li>A sprint goal for each Scrum Team</li>
+								<li>a single Nexus Sprint Backlog</li>
+								<li>A sprint backlog for each Scrum Team</li>
+							</ul>
+							<h4>Nexus Daily Scrum</h4>
+							<p>An event including appropriate representatives from each Scrum Team used to identify any integration issues and inspect progress towards the Nexus Sprint Goal</p>
+							<h4>Nexus Sprint Review</h4>
+							<p>Since the Nexus produces a single integrated increment this event replaces the need for the Scrum Team's Sprint Review</p>
+							<h4>Nexus Sprint Retrospective</h4>
+							<p>A way to plan for increasing quality and effectiveness across the whole nexus. This event concludes the sprint.</p>
+
+							<h3>Artifacts and Commitments</h3>
+							<h4>Product Backlog</h4>
+							<p>There should be a single Product Backlog for a single product as a way to increase transparency. The PO is accountable for the entire Backlog.</p>
+							<h5>Product Goal - the commitment for the Backlog, describes the future state of the product and serves as a long-term goal</h5>
+							<h4>Nexus Sprint Backlog</h4>
+							<p>The composite of the Nexus Sprint Goal and all PBIs from all of the Sprint Backlogs for all Scrum Teams</p>
+							<h5>Sprint Goal - the commitment for the Nexus Sprint Backlog, a single objective for the Sprint, the sum of all sprint goals and work</h5>
+							<h4>Integrated Increment</h4>
+							<p>The current sum of all integrated work completed by the Nexus toward the product goal</p>
+							<h5>Definition of Done - the state of integrated work when it meets the quality and measures required for the product, created by the NIT, individual teams may choose to take on a more stringent DoD</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>
